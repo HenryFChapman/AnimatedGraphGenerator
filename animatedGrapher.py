@@ -111,4 +111,4 @@ def makeSetOfGraphs(emoji):
 		plt.savefig("Graphs/" + str(i).zfill(3) + ".png", transparent = False, dpi = 150)
 		plt.close()
 
-makeSetOfGraphs(sys.arv[2])
+makeSetOfGraphs(sys.argv[2])
